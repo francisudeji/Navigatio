@@ -1,0 +1,21 @@
+html,
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+.footimage
+{
+	background-image: url('../images/footer_1.png');
+	background-position: center center;
+	background-size: cover;
+	height: 75px;
+}
+
+
+.headBorder
+{
+	background-color: black;
+}
