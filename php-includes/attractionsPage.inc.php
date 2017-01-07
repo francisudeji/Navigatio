@@ -350,7 +350,7 @@
 </div>
 
 
-<script src="http://maps.googleapis.com/maps/api/js">
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0Nwpnj26MdANOLDgcYP9KsWSFr81QUW4">
       </script>      
       <?php 
           $stmt = $db->prepare("  SELECT attraction_id, name, latitude, longitude, type 
