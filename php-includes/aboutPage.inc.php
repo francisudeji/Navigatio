@@ -6,7 +6,7 @@
 ?>
 <?php
   $stmt = $db->prepare("  SELECT detailImage, name, overview, history, gettingIn, seasons 
-                FROM citydetails WHERE city_id = $cityID");
+                FROM cityDetails WHERE city_id = $cityID");
   $stmt->execute();
   $stmt->bind_result($detailImage, $name, $overview, $history, $gettingIn, $seasons);                   
   $stmt->fetch();

@@ -1,9 +1,12 @@
 <?php
 
 $dbConnect = array(
-	'server' 	=> 'localhost',
-	'user'		=> 'root',
-	'pass'		=> 'admin',
+	// 'server' 	=> 'localhost',
+	// 'user'		=> 'root',
+	// 'pass'		=> 'admin',
+	'server' 	=> 'navigatio-db.cqondar6hbwx.us-east-1.rds.amazonaws.com',
+	'user'		=> 'vishnu',
+	'pass'		=> 'qwerty123',
 	'name'		=> 'navigatio'
 	);
 
