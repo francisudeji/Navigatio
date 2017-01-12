@@ -41,7 +41,9 @@ Navigatio is a web based portal application used to display some of the most pop
 
 The web application was deployed on AWS for better scalability and for a fast infrastructure set up. Shown below is a high level architecture of the infrastructure setup.
 
-![System architecture](https://github.com/vishnu45/Navigatio/blob/master/img/architecture.png)
+<p align="center">
+  <img src="https://github.com/vishnu45/Navigatio/blob/master/img/architecture.png?raw=true" alt="System Architecture"/>
+</p>
 
 Here the web server code is hosted on **Amazon EC2** instances which are managed within an Auto Scalling Group. Based on the network tracffic rule setup for scalling, the auto scalling group adds/removes instances. **Amazon Elastic Load Balancer** distributes the traffic over the available instances. **Amazon Route 53** helps the DNS to connect the provided url to the web application exposed out through the load balancer. **Amazon S3** provides a scalable storage infrastructure to store much of the static content such as the very many images used in the application. **Amazon RDS** is used to set up the MySQL database backend of the application. 
 
